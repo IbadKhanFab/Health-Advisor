@@ -1,0 +1,676 @@
+2025-04-18 13:01:51,077 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 13:02:04,305 - HealthChatbot - WARNING - OCR for PDF failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-04-18 13:04:06,791 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 13:04:29,363 - HealthChatbot - INFO - Processing file: BloodReport.pdf
+2025-04-18 13:04:30,339 - HealthChatbot - INFO - Text extraction method: OCR
+2025-04-18 13:04:30,339 - HealthChatbot - INFO - Extracted text length: 677 chars
+2025-04-18 13:04:30,340 - HealthChatbot - INFO - Using text-only approach
+2025-04-18 13:04:38,267 - HealthChatbot - INFO - Analysis complete. Conversation ID: 68020795ca9b2c7e33d319e7
+2025-04-18 15:50:11,968 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 15:52:02,604 - HealthChatbot - INFO - Processing file: BloodReport.pdf
+2025-04-18 15:52:03,639 - HealthChatbot - INFO - Text extraction method: OCR
+2025-04-18 15:52:03,640 - HealthChatbot - INFO - Extracted text length: 677 chars
+2025-04-18 15:52:03,640 - HealthChatbot - INFO - Using text-only approach
+2025-04-18 15:52:10,882 - HealthChatbot - ERROR - Error in analyze_health_input: cannot access local variable 'conversation_id' where it is not associated with a value
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 92, in analyze_health_input
+    logger.info(f"Analysis complete. Conversation ID: {conversation_id}")
+                                                       ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'conversation_id' where it is not associated with a value
+2025-04-18 15:54:04,379 - HealthChatbot - INFO - Processing file: BloodReport.pdf
+2025-04-18 15:54:05,370 - HealthChatbot - INFO - Text extraction method: OCR
+2025-04-18 15:54:05,370 - HealthChatbot - INFO - Extracted text length: 677 chars
+2025-04-18 15:54:05,370 - HealthChatbot - INFO - Using text-only approach
+2025-04-18 15:54:10,663 - HealthChatbot - ERROR - Error in analyze_health_input: cannot access local variable 'conversation_id' where it is not associated with a value
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 92, in analyze_health_input
+    # logger.info(f"Analysis complete. Conversation ID: {conversation_id}")
+                                                       ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'conversation_id' where it is not associated with a value
+2025-04-18 15:54:39,737 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 15:54:57,809 - HealthChatbot - WARNING - Emergency keywords detected: what diesease is here
+2025-04-18 16:00:31,108 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 16:00:58,927 - HealthChatbot - INFO - Processing file: BloodReport.pdf
+2025-04-18 16:00:59,971 - HealthChatbot - INFO - Text extraction method: OCR
+2025-04-18 16:00:59,972 - HealthChatbot - INFO - Extracted text length: 677 chars
+2025-04-18 16:00:59,973 - HealthChatbot - INFO - Using text-only approach
+2025-04-18 16:01:04,045 - HealthChatbot - ERROR - Error in analyze_health_input: cannot access local variable 'conversation_id' where it is not associated with a value
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 97, in analyze_health_input
+    "conversation_id": conversation_id,
+                       ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'conversation_id' where it is not associated with a value
+2025-04-18 16:09:35,198 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 16:09:52,700 - HealthChatbot - INFO - Processing file: BloodReport.pdf
+2025-04-18 16:09:53,737 - HealthChatbot - INFO - Text extraction method: OCR
+2025-04-18 16:09:53,738 - HealthChatbot - INFO - Extracted text length: 677 chars
+2025-04-18 16:09:53,738 - HealthChatbot - INFO - Using text-only approach
+2025-04-18 16:10:00,223 - HealthChatbot - INFO - Analysis complete. Conversation ID: 680233074d6646959e6363b8
+2025-04-18 16:41:08,531 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 16:41:57,651 - HealthChatbot - INFO - Processing file: BloodReport.pdf
+2025-04-18 16:41:59,320 - HealthChatbot - INFO - Text extraction method: OCR
+2025-04-18 16:41:59,320 - HealthChatbot - INFO - Extracted text length: 677 chars
+2025-04-18 16:41:59,321 - HealthChatbot - INFO - Using text-only approach
+2025-04-18 16:42:05,508 - HealthChatbot - INFO - Analysis complete. Conversation ID: 68023a8cdf88ce3b5190d271
+2025-04-18 17:18:54,045 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 17:20:09,737 - HealthChatbot - INFO - Processing file: BloodReport.pdf
+2025-04-18 17:20:10,790 - HealthChatbot - INFO - Text extraction method: OCR
+2025-04-18 17:20:10,791 - HealthChatbot - INFO - Extracted text length: 677 chars
+2025-04-18 17:20:10,791 - HealthChatbot - INFO - Using text-only approach
+2025-04-18 17:20:18,032 - HealthChatbot - ERROR - Error in analyze_health_input: HealthChatbot._store_conversation() got an unexpected keyword argument 'person_id'
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 132, in analyze_health_input
+    conversation_id = self._store_conversation(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HealthChatbot._store_conversation() got an unexpected keyword argument 'person_id'
+2025-04-18 17:23:15,310 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 17:23:49,282 - HealthChatbot - INFO - Processing file: BloodReport.pdf
+2025-04-18 17:23:50,307 - HealthChatbot - INFO - Text extraction method: OCR
+2025-04-18 17:23:50,308 - HealthChatbot - INFO - Extracted text length: 677 chars
+2025-04-18 17:23:50,308 - HealthChatbot - INFO - Using text-only approach
+2025-04-18 17:23:55,831 - HealthChatbot - INFO - Analysis complete. Conversation ID: 6802445b910dd7f97d0f0afc
+2025-04-18 17:24:33,731 - HealthChatbot - INFO - Analysis complete. Conversation ID: 68024481910dd7f97d0f0afd
+2025-04-18 17:48:09,414 - HealthChatbot - INFO - Analysis complete. Conversation ID: 68024a09910dd7f97d0f0afe
+2025-04-18 17:49:16,598 - HealthChatbot - INFO - Analysis complete. Conversation ID: 68024a4c910dd7f97d0f0aff
+2025-04-18 17:50:08,437 - HealthChatbot - INFO - Analysis complete. Conversation ID: 68024a80910dd7f97d0f0b01
+2025-04-18 17:57:06,732 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-18 17:57:28,083 - HealthChatbot - INFO - Analysis complete. Conversation ID: 68024c37b7c41e616df8c9e4
+2025-04-18 17:57:58,210 - HealthChatbot - INFO - Analysis complete. Conversation ID: 68024c56b7c41e616df8c9e5
+2025-04-19 09:45:34,831 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 09:46:11,681 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032a6ee9e5a109dcf1f457, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 64, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032a6ee9e5a109dcf1f457, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 09:46:21,887 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 09:46:53,312 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032a9d3e79b0128da30944, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 64, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032a9d3e79b0128da30944, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 09:56:47,886 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 09:57:19,317 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032d0f12ce4368ec3d67f6, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\chatbot\database.py", line 29, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032d0f12ce4368ec3d67f6, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 09:58:07,744 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 09:58:39,235 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032d5f03e6401afa2d4804, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\chatbot\database.py", line 29, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032d5f03e6401afa2d4804, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:03:06,853 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 10:03:41,788 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032e8abf44b1e852c6f261, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\chatbot\database.py", line 29, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032e8abf44b1e852c6f261, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:03:50,286 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 10:05:04,638 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032eb6bb9e11fcef2b4b03, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\chatbot\database.py", line 29, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68032eb6bb9e11fcef2b4b03, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:15:25,678 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 10:16:41,034 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6803316ddb975de0d4a4eca3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\chatbot\database.py", line 29, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6803316ddb975de0d4a4eca3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:17:36,560 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 10:18:08,377 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 680331f0a8132df5a1de8711, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 64, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 680331f0a8132df5a1de8711, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:21:48,775 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 10:22:24,771 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 680332ec3e6b5127501d77a9, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 64, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 680332ec3e6b5127501d77a9, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:23:28,393 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 10:24:22,328 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68033350067b12da33c2e804, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 64, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68033350067b12da33c2e804, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:30:46,274 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 10:31:18,783 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68033506f3a4ddb5395a16cd, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\main.py", line 64, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68033506f3a4ddb5395a16cd, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:54:36,083 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 10:56:30,927 - HealthChatbot - ERROR - Error starting new chat: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68033a9c08b21544e58953f6, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\chatbot\database.py", line 30, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68033a9c08b21544e58953f6, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-19 10:57:00,746 - HealthChatbot - INFO - HealthChatbot initialized successfully
+2025-04-19 11:16:14,745 - HealthChatbot - ERROR - Error starting new chat: SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68033b2c637747d72e48a056, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "D:\development\Fabtechsol\Health Advisor\Health-Advisor\chatbot\database.py", line 30, in start_new_chat
+    result = self.chats.insert_one(chat_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2040, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1926, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1972, in _retry_internal
+    ).run()
+      ^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2709, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2819, in _write
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 2802, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1791, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\development\Fabtechsol\Health Advisor\.venv\Lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68033b2c637747d72e48a056, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ogte13m-shard-00-00.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-00.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-01.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-01.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-ogte13m-shard-00-02.lwejlle.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ogte13m-shard-00-02.lwejlle.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>

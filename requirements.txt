@@ -1,3 +1,8 @@
 pymongo 
 requests 
 python-dotenv
+PyPDF2 
+pillow 
+pytesseract
+pymupdf 
+opencv-python
